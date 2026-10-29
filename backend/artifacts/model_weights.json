@@ -1,0 +1,17 @@
+{
+  "model_name": "MobileNet-Inspired CNN (FreshSight-V1)",
+  "classes": [
+    "Fresh",
+    "Rotten"
+  ],
+  "input_size": [
+    224,
+    224
+  ],
+  "trained_at": "2026-10-29T12:33:09.945063+00:00",
+  "total_parameters": 6594,
+  "best_val_accuracy": 0.875,
+  "epochs": 15,
+  "learning_rate": 0.005,
+  "batch_size": 8
+}

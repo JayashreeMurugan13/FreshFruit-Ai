@@ -1,0 +1,36 @@
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Temporary storage & databases
+backend/temp/
+backend/history.db
+backend/history.db-journal
+
+# Model binary weights (large files)
+backend/artifacts/*.npz
+backend/artifacts/*.pt
+backend/artifacts/*.pth
+backend/artifacts/*.h5
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
